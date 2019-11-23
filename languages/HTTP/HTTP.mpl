@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="HTTPLanguage" uuid="493f1de0-fbd9-4b93-a947-7ab777ee65e0" languageVersion="0" moduleVersion="0">
+<language namespace="HTTP" uuid="493f1de0-fbd9-4b93-a947-7ab777ee65e0" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="HTTPLanguage#01" uuid="7b4e2e70-fe80-4ce1-9916-5167b395865e">
+    <generator alias="main" namespace="HTTP#01" uuid="7b4e2e70-fe80-4ce1-9916-5167b395865e">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -40,9 +40,9 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="493f1de0-fbd9-4b93-a947-7ab777ee65e0(HTTPLanguage)" version="0" />
-        <module reference="7b4e2e70-fe80-4ce1-9916-5167b395865e(HTTPLanguage#01)" version="0" />
-        <module reference="c21e11c4-5bd3-49a0-b871-f3e2c938e659(HTTPLanguage.runtime)" version="0" />
+        <module reference="493f1de0-fbd9-4b93-a947-7ab777ee65e0(HTTP)" version="0" />
+        <module reference="7b4e2e70-fe80-4ce1-9916-5167b395865e(HTTP#01)" version="0" />
+        <module reference="c21e11c4-5bd3-49a0-b871-f3e2c938e659(HTTP.runtime)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
@@ -88,7 +88,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="493f1de0-fbd9-4b93-a947-7ab777ee65e0(HTTPLanguage)" version="0" />
+    <module reference="493f1de0-fbd9-4b93-a947-7ab777ee65e0(HTTP)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
@@ -97,7 +97,7 @@
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
   </dependencyVersions>
   <runtime>
-    <dependency reexport="false">c21e11c4-5bd3-49a0-b871-f3e2c938e659(HTTPLanguage.runtime)</dependency>
+    <dependency reexport="false">c21e11c4-5bd3-49a0-b871-f3e2c938e659(HTTP.runtime)</dependency>
   </runtime>
   <extendedLanguages />
 </language>
