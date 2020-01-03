@@ -7,15 +7,19 @@
   <imports />
   <registry>
     <language id="493f1de0-fbd9-4b93-a947-7ab777ee65e0" name="HTTP">
-      <concept id="7575422112480082812" name="HTTP.structure.KeyValuePairs" flags="ng" index="f8JkU">
-        <child id="7575422112480082820" name="pairs" index="f8Jn2" />
+      <concept id="7575422112480178004" name="HTTP.structure.RequestHeaders" flags="ng" index="f964i">
+        <child id="7575422112480178007" name="header" index="f964h" />
       </concept>
-      <concept id="7575422112480082817" name="HTTP.structure.KeyValuePairsWithSemicolon" flags="ng" index="f8Jn7" />
-      <concept id="5179573861930588787" name="HTTP.structure.KeyValuePairWithEqual" flags="ng" index="1BDd2f" />
+      <concept id="517177826128840979" name="HTTP.structure.KeyValuePairWithColon" flags="ng" index="zcMHH" />
+      <concept id="5179573861930588779" name="HTTP.structure.KeyValuePair" flags="ng" index="1BDd2n">
+        <property id="5179573861930588782" name="key" index="1BDd2i" />
+      </concept>
     </language>
   </registry>
-  <node concept="f8Jn7" id="6$xj$pA1fE0">
-    <node concept="1BDd2f" id="6$xj$pA1htN" role="f8Jn2" />
+  <node concept="f964i" id="1khr_gmdypS">
+    <node concept="zcMHH" id="1khr_gmefMo" role="f964h">
+      <property role="1BDd2i" value="Set-Co" />
+    </node>
   </node>
 </model>
 
