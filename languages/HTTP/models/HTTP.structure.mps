@@ -7,11 +7,13 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="2m94" ref="r:c7099e15-af1e-4862-86fa-09c7005dcf98(Common.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -109,15 +111,15 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <property role="20kJfa" value="header" />
-      <ref role="20lvS9" node="sHoBS$7$$j" resolve="KeyValuePairWithColon" />
+      <ref role="20lvS9" node="1khr_gmgMrN" resolve="Header" />
     </node>
   </node>
   <node concept="1TIwiD" id="6$xj$pA1Fis">
     <property role="EcuMT" value="7575422112480277660" />
     <property role="TrG5h" value="SetCookie" />
     <property role="3GE5qa" value="headers" />
-    <property role="34LRSv" value="setcookie" />
-    <ref role="1TJDcQ" node="sHoBS$7$$j" resolve="KeyValuePairWithColon" />
+    <property role="R4oN_" value="Set-Cookie" />
+    <ref role="1TJDcQ" node="1khr_gmgMrN" resolve="Header" />
     <node concept="1TJgyj" id="6$xj$pA1Fit" role="1TKVEi">
       <property role="IQ2ns" value="7575422112480277661" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -125,6 +127,25 @@
       <property role="20kJfa" value="cookies" />
       <ref role="20lvS9" node="4vxyJKwhlDN" resolve="KeyValuePairWithEqual" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeC3q">
+    <property role="EcuMT" value="1518115856829808858" />
+    <property role="3GE5qa" value="headers" />
+    <property role="TrG5h" value="Accept" />
+    <property role="R4oN_" value="Accept" />
+    <ref role="1TJDcQ" node="1khr_gmgMrN" resolve="Header" />
+    <node concept="1TJgyj" id="1khr_gmeC3r" role="1TKVEi">
+      <property role="IQ2ns" value="1518115856829808859" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="mime" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="2m94:1khr_gmeg17" resolve="MIME" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1khr_gmgMrN">
+    <property role="EcuMT" value="1518115856830375667" />
+    <property role="TrG5h" value="Header" />
+    <ref role="1TJDcQ" node="sHoBS$7$$j" resolve="KeyValuePairWithColon" />
   </node>
 </model>
 

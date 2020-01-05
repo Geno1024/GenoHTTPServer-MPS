@@ -22,6 +22,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
@@ -103,106 +104,222 @@
   <node concept="1TIwiD" id="1khr_gmegrP">
     <property role="EcuMT" value="1518115856829712117" />
     <property role="TrG5h" value="ApplicationOctetStream" />
-    <property role="3GE5qa" value="commonmime" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <property role="3GE5qa" value="mime.commonmime" />
+    <ref role="1TJDcQ" node="1khr_gmeyqF" resolve="Application" />
   </node>
   <node concept="1TIwiD" id="1khr_gmejGW">
     <property role="EcuMT" value="1518115856829725500" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="TextPlain" />
     <property role="R4oN_" value=".txt" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziV" resolve="Text" />
   </node>
   <node concept="1TIwiD" id="1khr_gmentG">
     <property role="EcuMT" value="1518115856829740908" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="TextCss" />
     <property role="R4oN_" value=".css" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziV" resolve="Text" />
   </node>
   <node concept="1TIwiD" id="1khr_gmeoxE">
     <property role="EcuMT" value="1518115856829745258" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="TextHtml" />
     <property role="R4oN_" value=".htm / .html" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziV" resolve="Text" />
   </node>
   <node concept="1TIwiD" id="1khr_gmepxo">
     <property role="EcuMT" value="1518115856829749336" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="TextJavascript" />
     <property role="R4oN_" value=".js" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziV" resolve="Text" />
   </node>
   <node concept="1TIwiD" id="1khr_gmequN">
     <property role="EcuMT" value="1518115856829753267" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageApng" />
     <property role="R4oN_" value=".apng" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmerpt">
     <property role="EcuMT" value="1518115856829757021" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageBmp" />
     <property role="R4oN_" value=".bmp" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmeskR">
     <property role="EcuMT" value="1518115856829760823" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageGif" />
     <property role="R4oN_" value=".gif" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmetb_">
     <property role="EcuMT" value="1518115856829764325" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageXicon" />
     <property role="R4oN_" value=".ico / .cur" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmeu3z">
     <property role="EcuMT" value="1518115856829767907" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageJpeg" />
     <property role="R4oN_" value=".jpg / .jpeg / .jfif / .pjpeg / .pjp" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmeuYd">
     <property role="EcuMT" value="1518115856829771661" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImagePng" />
     <property role="R4oN_" value=".png" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmevOM">
     <property role="EcuMT" value="1518115856829775154" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageSvgxml" />
     <property role="R4oN_" value=".svg" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmewG5">
     <property role="EcuMT" value="1518115856829778693" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageTiff" />
     <property role="R4oN_" value=".tif / .tiff" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmex$F">
     <property role="EcuMT" value="1518115856829782315" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="ImageWebp" />
     <property role="R4oN_" value=".webp" />
-    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+    <ref role="1TJDcQ" node="1khr_gmeziR" resolve="Image" />
   </node>
   <node concept="1TIwiD" id="1khr_gmeyqB">
     <property role="EcuMT" value="1518115856829785767" />
-    <property role="3GE5qa" value="commonmime" />
+    <property role="3GE5qa" value="mime.commonmime" />
     <property role="TrG5h" value="AudioWave" />
     <property role="R4oN_" value=".wav" />
+    <ref role="1TJDcQ" node="1khr_gmeziO" resolve="Audio" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeyqF">
+    <property role="EcuMT" value="1518115856829785771" />
+    <property role="TrG5h" value="Application" />
+    <property role="34LRSv" value="application" />
+    <property role="3GE5qa" value="mime.types" />
     <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziO">
+    <property role="EcuMT" value="1518115856829789364" />
+    <property role="TrG5h" value="Audio" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="audio" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziP">
+    <property role="EcuMT" value="1518115856829789365" />
+    <property role="TrG5h" value="Font" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="font" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziQ">
+    <property role="EcuMT" value="1518115856829789366" />
+    <property role="TrG5h" value="Example" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="example" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziR">
+    <property role="EcuMT" value="1518115856829789367" />
+    <property role="TrG5h" value="Image" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="image" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziS">
+    <property role="EcuMT" value="1518115856829789368" />
+    <property role="TrG5h" value="Message" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="message" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziT">
+    <property role="EcuMT" value="1518115856829789369" />
+    <property role="TrG5h" value="Model" />
+    <property role="34LRSv" value="model" />
+    <property role="3GE5qa" value="mime.types" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziU">
+    <property role="EcuMT" value="1518115856829789370" />
+    <property role="TrG5h" value="Multipart" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="multipart" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziV">
+    <property role="EcuMT" value="1518115856829789371" />
+    <property role="TrG5h" value="Text" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="text" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeziW">
+    <property role="EcuMT" value="1518115856829789372" />
+    <property role="TrG5h" value="Video" />
+    <property role="3GE5qa" value="mime.types" />
+    <property role="34LRSv" value="video" />
+    <ref role="1TJDcQ" node="1khr_gmeg17" resolve="MIME" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeBxc">
+    <property role="EcuMT" value="1518115856829806668" />
+    <property role="3GE5qa" value="mime.commonmime" />
+    <property role="TrG5h" value="AudioWebm" />
+    <property role="R4oN_" value=".webm" />
+    <ref role="1TJDcQ" node="1khr_gmeziO" resolve="Audio" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeBBW">
+    <property role="EcuMT" value="1518115856829807100" />
+    <property role="3GE5qa" value="mime.commonmime" />
+    <property role="TrG5h" value="VideoWebm" />
+    <property role="R4oN_" value=".webm" />
+    <ref role="1TJDcQ" node="1khr_gmeziW" resolve="Video" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeBHI">
+    <property role="EcuMT" value="1518115856829807470" />
+    <property role="3GE5qa" value="mime.commonmime" />
+    <property role="TrG5h" value="AudioOgg" />
+    <property role="R4oN_" value=".ogg" />
+    <ref role="1TJDcQ" node="1khr_gmeziO" resolve="Audio" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeBNy">
+    <property role="EcuMT" value="1518115856829807842" />
+    <property role="3GE5qa" value="mime.commonmime" />
+    <property role="TrG5h" value="VideoOgg" />
+    <property role="R4oN_" value=".ogg" />
+    <ref role="1TJDcQ" node="1khr_gmeziW" resolve="Video" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeBXx">
+    <property role="EcuMT" value="1518115856829808481" />
+    <property role="3GE5qa" value="mime.commonmime" />
+    <property role="TrG5h" value="ApplicationOgg" />
+    <property role="R4oN_" value=".ogg" />
+    <ref role="1TJDcQ" node="1khr_gmeyqF" resolve="Application" />
+  </node>
+  <node concept="1TIwiD" id="1khr_gmeC3n">
+    <property role="EcuMT" value="1518115856829808855" />
+    <property role="3GE5qa" value="mime.commonmime" />
+    <property role="TrG5h" value="MultipartFormdata" />
+    <ref role="1TJDcQ" node="1khr_gmeziU" resolve="Multipart" />
+    <node concept="1TJgyi" id="1khr_gmeC3o" role="1TKVEl">
+      <property role="IQ2nx" value="1518115856829808856" />
+      <property role="TrG5h" value="boundary" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 
